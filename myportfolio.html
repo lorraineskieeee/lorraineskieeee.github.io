@@ -1,26 +1,111 @@
-<!DOCTYPE html>
+++++++++<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="mystyle.css">
+ <meta charset="utf-8">
+ <meta name="viewport"
+ content="width=device-width, intitial-scale=1">
+ <link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+	input[type=text] {
+	 width: 50%;
+	 box-sizing: border-box;
+	 border:2px solid #ccc;
+	 border-radius: 4px;
+	 font-size: 16px;
+	 background-color: aquamarine;
+	 background-image: url('searchicon.png');
+	 background-position: 10px 10px;
+	 background-repeat: no-repeat;
+	 padding: 12px 20px 12px 40px;
+	}
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: lightcoral;
+  margin-left: 50vh;
+  margin-top: 30vh;
+  width: 180px;
+}
 
-</head>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 50vh;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: wheat;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: lightcoral;
+}
+    </style>
+
 <body>
-  <div class="banner">
-    <div class="navbar">
-      <img src="https://th.bing.com/th/id/OIP.7ESpXvjxxMq_8RVSa8aNEQHaFy?pid=ImgDet&rs=1-cupcake-logo.jpg"class="logo">
-    <ul>
-      <li><a href="home.html">Home</a></li>
-      <li><a href="flavors.html">Flavors</a></li>
-      <li><a href="home.html">Images</a></li>
-      <li><a href="description.html">Description</a></li>
-      <li><a href="myportfolio.html">My Portfolio</a></li>
-    </ul>
+	<div class="banner">
+	 <div class="navbar">
+	  <image scr="https://th.bing.com/th/id/OIP.7ESpXvjxxMq_8RVSa8aNEQHaFY?pid=ImaDet&rs=1-cupcake-logo.jpg"class="logo">
+	  	<ul>
+	  	  <li><a href="home.html">Home</a></li>
+	  	  <li><a href="videos.html">Vidoes</a></li>
+	  	  <li><a href="images.html">Images</a></li>
+	  	  <li><a href="about.html">About</a></li>
+	  	  <li><a href="contact.html">Contact</a></li>
+	  	  <li class="dropdown">
+	  	  <a href="myportfolio.html">My Portfolio</a>
+	  	</ul>  
+	  	</div>
+	  <div class="dropdown">
+  <button class="dropbtn">QUARTER 1</button>
+  <div class="dropdown-content">
+  <a href="https://drive.google.com/drive/folders/1CMbchpsSaWRfCFMSWv6G5cQKcgdpI9dq?usp=share_link">WEEK 1</a>
+  <a href="https://drive.google.com/drive/folders/1ylD6neUhXGsUMffxekx76qNJUwgIDZEO?usp=share_link">WEEK 2</a>
+  <a href="https://drive.google.com/drive/folders/1sKFtizYJrLc9B3LKr4xS3zNv-Mhy69MV?usp=share_link">WEEK 3</a>
+  <a href="https://drive.google.com/drive/folders/1w8I3-uzFH-DOJdMpFqySn5zt0o7Fk0Gx?usp=share_link">WEEK 4</a>
+  <a href="https://drive.google.com/drive/folders/18ZTA9gBNJa5une3KO_yTo-_Z7z0usOkO?usp=share_link">WEEK 5</a>
+  <a href="https://drive.google.com/drive/folders/1pzMpPMzWFBYDIpMtvAc-9zjCa0uTT_Nw?usp=share_link">WEEK 6</a>
+  <a href="https://drive.google.com/drive/folders/1g3z_ual842y2V5x0YZ4x1QRZSSOAVRAu?usp=share_link">WEEK 7</a>
+  <a href="https://drive.google.com/drive/folders/1w6tnKA5yWWPNyId5I8zcZ7MGlTxemco4?usp=share_link">WEEK 8</a>
   </div>
-  <div class="content">
-  <h1>Lorraine's Cupcakes</h1>
-  <p>hope enjoy the site to all my customer and have fun</p>
-    
+</div>
+
+
+<div class="dropdown">
+  <button class="dropbtn">QUATER 2</button>
+  <div class="dropdown-content">
+  <a href="https://drive.google.com/drive/folders/1lhVDc_jmFo1l4gAOCa5MnqOwJ2zIb3HA?usp=share_link"> WEEK 1</a>
+  <a href="https://drive.google.com/drive/folders/1ygYetgp7hmD-pOzA98CGEJ7G_AglTO2U?usp=share_link"> WEEK 2</a>
+  <a href="https://drive.google.com/drive/folders/1eqTCwk8Cx2wP-p_eQ44KGfH3qkGrTz6o?usp=share_link"> WEEK 3</a>
+  <a href="https://drive.google.com/drive/folders/109DVvjQ74HwwKmf9VOI3zol98fsnd8KG?usp=share_link"> WEEK 4</a>
+  <a href="https://drive.google.com/drive/folders/19fVCZZVoVsZs6hCGn588RXrVKjwZm_gP?usp=share_link"> WEEK 5</a>
+  <a href="https://drive.google.com/drive/folders/1fy2u3palB61oDDcN2dY15Yz_vw6MYtwg?usp=share_link"> WEEK 6</a>
+  <a href="https://drive.google.com/drive/folders/1A5yo_cbcK_eY0ca2dYoId1NTPHNSsTZ1?usp=share_link"> WEEK 7</a>
+  <a href="https://drive.google.com/drive/folders/1s6vnJuGHZcY20per9IpahGeSxEM-H2Sx?usp=share_link"> WEEK 8</a>
   </div>
-</body>
+	
+
+	  	</div>
+	  	</body>	
